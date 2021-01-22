@@ -1,6 +1,6 @@
 //  http://k504.khai.edu/attachments/article/762/Zadachnik_Abramyan.pdf
 
-
+import kotlin.math.*
 
 fun main() //заглавная функция
 {
@@ -36,6 +36,38 @@ fun main() //заглавная функция
 //
 //    var S = pi*R*R
 //    println("Площадь круга = $S\nДлина окружнасти = $L")
+
+//    var c = 49.0
+//    var a = sqrt(c)
+//    var b = c.pow(0.5)
+
+//    var a = readLine()!!.toDouble()
+//    var b = readLine()!!.toDouble()
+//    var c = sqrt(a.pow(2)+b.pow(2))
+//    var p = a+b+c
+
+
+//println(c)
+//
+//    println
+
+    var pi = 3.14
+    var S = readLine()!!.toDouble()
+    var R = sqrt(S/pi)
+
+    var D = 2*R
+    var L = 2*pi*R
+
+
+
+
+
+
+    println("Диаметр = $D\nДлина = $L")
+
+
+
+
 
 
 
